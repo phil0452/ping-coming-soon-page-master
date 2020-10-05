@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href='https://fonts.googleapis.com/css?family=Libre Franklin:400,600,700' rel='stylesheet'>
+  <link href='CSS/styling.css' rel='stylesheet'>
+  <link href='CSS/styling-responsive.css' rel='stylesheet'>
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+	<section>
+		<div class="flex-row">
+			<div class="center-container" id="logo">
+				<img src="images/logo.png" alt="logo" />
+			</div>
+			<div class="center-container" id="text">
+				<span id="gray-font">We are launching</span>
+				<span id="bold">soon!</span>
+				
+				<p>Subscribe and get notified</p>
+			</div>
+			
+			<form onsubmit="Validate(); return false;">
+				<input type="text" placeholder="Your email address" id="email" />
+				<input type="submit" value="Notify Me" id="submit" />
+				<i id="error-message" class= "hide-error">Please provide a valid email</i>								
+			</for>
+		</div>
+		<div class="flex-row" id="image-row">
+			<img src="images/illustration-dashboard.png" id="dashboard-img"alt="dashboard" />
+		</div>
+		<div class="flex-row" id="icons-row">
+			<div id="icons-container">
+				<div class="icon">
+					<a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+				</div>
+				<div class="icon">
+					<a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+				</div>
+				<div class="icon">
+					<a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+				</div>
+			</div>
+		</div>
+		<div class="flex-row"id="copright-row">
+			&copy; Copyright Ping. All rights reserved.
+		</div>
+	</section>  
+
+  
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+  
+  <script src="form.js"></script>
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</body>
+</html>
