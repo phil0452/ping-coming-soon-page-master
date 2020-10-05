@@ -1,0 +1,69 @@
+@media screen and (min-width: 360px) {	
+}
+@media screen and (min-width: 1140px) {	
+	section {
+		display: flex;
+		flex-direction: column;
+	}
+
+	section .flex-row {
+		display: flex;
+		flex-direction: column;
+	}
+
+	section .flex-row .center-container{
+		align-self: center;
+	}
+	
+	section .flex-row #logo{
+		margin: 0;
+	}
+	
+	section .flex-row .center-container span {
+		font-size: 34px;
+	}
+	
+	section .flex-row form {
+		align-self: center;
+		width: 465px;
+		height: 70px;
+	}
+
+	section .flex-row form input[type=text]{
+		width: 295px;
+		margin-right: 5px;
+		margin-bottom: 0;
+	}
+	
+	section .flex-row form input[type=submit] {
+		width: 150px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	
+	section .flex-row form i {
+		bottom: 10px;
+		padding-left: 20px;
+	}
+
+	section #image-row {
+		padding-top: 45px;
+		padding-bottom: 20px;
+		padding-left: 0;
+	}
+	section .flex-row #dashboard-img {
+		width: 450px;
+		align-self: center;
+	}
+	
+	section .flex-row #icons-row {
+	padding-top: 40px;
+}
+	section .flex-row #icons-container {
+		align-self: center;
+	}
+	
+	section #copright-row{
+		align-self: center;
+		padding-top: 25px;
+}

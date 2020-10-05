@@ -1,0 +1,147 @@
+html,
+body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	font-family: 'Libre Franklin';
+}
+
+section {
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+section .flex-row {
+}
+
+section .flex-row #logo{
+	width: 55px;
+	margin: auto;
+}
+section .flex-row #logo img {
+	width: 100%;
+}
+
+section .flex-row #text{
+	padding-top: 30px;
+	text-align: center;
+}
+
+section .flex-row .center-container span {
+	font-size: 20px;
+}
+
+section .flex-row .center-container span#gray-font {
+	color: hsl(0, 0%, 59%);
+}
+
+section .flex-row .center-container span#bold {
+	font-weight: 700;
+}
+
+section .flex-row .center-container p {
+	font-size: 16px;
+	font-weight: 400;
+	color: hsl(209, 33%, 12%);
+	text-align: center;
+}
+
+form {
+	width: 270px;
+	height: 125px;
+	margin: auto;
+}
+
+form input[type=text]{	
+	width: 100%;
+    padding: 15px 20px;
+    box-sizing: border-box; 
+    border-radius: 35px;
+	margin-bottom: 20px;
+    border: 1px solid hsl(223, 100%, 88%);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+input[type=text]::placeholder{
+	color: hsl(223, 100%, 88%);
+	font-weight: 300;
+}
+
+input[type=text]:focus {
+	outline-color: hsl(0, 6%, 75%);
+	outline-width: 0;
+}
+
+form input[type=submit] {
+	width: 100%;	
+    padding: 15px 30px;
+    border-radius: 35px;
+    bottom: 47px;
+    border: none;
+	background-color: hsl(223, 87%, 63%);
+	color: white;
+	box-shadow: 1px 2px 10px hsl(223, 87%, 63%, 0.5);
+	cursor: pointer;
+}
+
+form #submit:focus {
+	outline-width: 0;
+}
+
+
+form i {
+	color: hsl(354, 100%, 66%);
+    font-size: 10px;
+	position: relative;
+	bottom: 70px;
+	padding-left: 20px;
+}
+
+.hide-error {
+	display: none;
+}
+
+section #image-row {
+	padding-top: 65px;
+	padding-bottom: 40px;
+	padding-left: 30px;
+}
+section .flex-row #dashboard-img {
+	width: 305px;
+	display: block;
+    margin: auto;
+}
+
+section #icons-row {
+	padding-top: 60px;
+}
+
+section .flex-row #icons-container {
+	margin: auto;
+    width: 90px;
+	}
+	
+section .flex-row #icons-container .icon {
+    display: inline-block; 	
+}
+
+section .flex-row #icons-container .icon ion-icon {
+  color: hsl(223, 87%, 63%);
+   width: 12px;
+   border: 1px solid hsl(223, 100%, 88%);
+   border-radius: 20px;
+   padding-left: 5px;
+    padding-right: 5px;
+	paddding-bottom: 2px;
+	padding-top: 1px;
+}
+
+section #copright-row{
+		padding-top: 25px;
+		color: hsl(0, 0%, 59%);	
+		font-size: 8px;
+		text-align: center;
+}
